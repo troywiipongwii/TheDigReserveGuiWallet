@@ -17,7 +17,7 @@ from utils.common import getSockDir, makeDir
 from settings import DATA_DIR
     
 class QSingleApplication(QApplication):
-    sock_file = 'electroneum_wallet_sock'
+    sock_file = 'digital_reserve_wallet_sock'
     if sys.platform == 'win32':
         sock_file = "\\\\.\\pipe\\%s" % sock_file
     elif sys.platform == 'darwin':
