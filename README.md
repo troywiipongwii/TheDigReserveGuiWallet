@@ -19,11 +19,11 @@ It is changed to be compatible with Electroneum.
 			sudo apt install python-pyside
 
 
-2. Build/download Electroneum binaries from [Electroneum repo](https://github.com/electroneum/electroneum) and put it to `Resources/bin` sub-directory.
+2. Build/download The Digital Reserve binaries from [Digital Reserve repo](https://github.com/electroneum/electroneum) and put it to `Resources/bin` sub-directory.
 
 3. Run the wallet (Python 2.7):
 		
-		cd /path/to/SumoGUIWallet
+		cd /path/to/TheDigReserveGuiWallet
 		python wallet.py
 
 4. Contribution
