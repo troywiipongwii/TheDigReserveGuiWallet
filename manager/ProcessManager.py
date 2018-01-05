@@ -77,7 +77,7 @@ class ProcessManager(Thread):
         return (self.proc.poll() is None)
     
 
-class ElectroneumdManager(ProcessManager):
+class DigitalReserveManager(ProcessManager):
     def __init__(self, resources_path, log_level=0, block_sync_size=10):
         proc_args = u'%s/bin/electroneumd --log-level %d --block-sync-size %d --rpc-bind-port %d' % (resources_path, log_level, block_sync_size, RPC_DAEMON_PORT)
         ProcessManager.__init__(self, proc_args, "electroneumd")
