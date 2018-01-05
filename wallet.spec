@@ -23,7 +23,7 @@ exe = EXE(pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=False , icon='/home/adir/drl.png')
+          console=False , icon='https://github.com/troywiipongwii/ElectroneumGUIWallet/blob/master/Resources/icons/drl%20.ico')
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
