@@ -13,8 +13,8 @@ import logging
 
 from utils.common import getHomeDir, makeDir
 
-USER_AGENT = "Electroneum GUI Wallet"
-APP_NAME = "Electroneum Wallet"
+USER_AGENT = "The Digital Reserve Gui Wallet"
+APP_NAME = "The Digital Reserve Wallet"
 VERSION = [0, 4, 0]
 
 
