@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['wallet.py'],
-             pathex=['C:\\Users\\franz\\Projekte\\ElectroneumGUIWallet'],
+             pathex=['/home/adir/DigitalReserveGuiWallet'],
              binaries=[],
              datas=[('Resources', 'Resources')],
              hiddenimports=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=False , icon='Resources\\icons\\electroneum_icon.ico')
+          console=False , icon='/home/adir/drl.png')
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
