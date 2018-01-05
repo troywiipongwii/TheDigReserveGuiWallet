@@ -1,7 +1,7 @@
 # Digital Reserve GUI Wallet
 
 This is a fork of the **Sumokoin GUI Wallet**: https://github.com/sumoprojects/SumoGUIWallet
-It is changed to be compatible with Electroneum.
+It is changed to be compatible with The Digital Reserve.
 
 
 1. Install dependencies (with Python 2.7):
